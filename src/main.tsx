@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import FMS from './Fms.tsx'
+import './css/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <FMS />
   </React.StrictMode>,
 )
 
