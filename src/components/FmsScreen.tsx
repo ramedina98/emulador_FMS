@@ -49,7 +49,7 @@ const FmsScreen: React.FC = () => {
         return str.replace(/\s+/g, '').trim();
     }
 
-    //Aqui inicia el proceso...
+    //the process begins..
     const handleTheProcess: (data: prevDataFormat[]) => void = (data)=> {
         setProcessData([]); // this helps us to clean the monitor Screen component...
         let dataArray: dataFormat[] = [];
