@@ -46,7 +46,7 @@ const MenuBar: React.FC = () => {
         };
 
         // Function to clear the text letter by letter
-        const clearText = () => {
+        const clearText: () => void = () => {
             // Set the index to the end of the text
             currentIndex = fullText.length - 1;
             // Set the direction to backward
@@ -75,9 +75,7 @@ const MenuBar: React.FC = () => {
                         width: '200px',
                         height: '37px',
                         fontSize: '1em',
-                        animation: showText ? "none" : "fading 3s",
-                        animationIterationCount: "infinite",
-                        animationDelay: "1s"
+                        animation: showText ? "fading 3s infinite 1s" : "none",
                     }}
                     className="text-neon flex justify-start items-center"
                 >

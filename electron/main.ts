@@ -23,7 +23,7 @@ function createWindow() {
     icon: path.join(process.env.VITE_PUBLIC, '../public/fortran.svg'),
     width: 950,
     height: 780,
-    minWidth: 450, 
+    minWidth: 950, 
     minHeight: 780,
     webPreferences: {
       contextIsolation: true,

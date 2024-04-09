@@ -6,7 +6,10 @@ const FMS: React.FC = () => {
   return (
     <>
       <div
-        className='w-screen h-screen bg-black flex justify-center items-center'
+        style={{
+          minHeight: '100vh'
+        }}
+        className='w-screen bg-black flex justify-center items-center'
       >
         {/*componente, retro monitor...*/}
         <FmsScreen />
